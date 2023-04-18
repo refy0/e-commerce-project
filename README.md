@@ -20,7 +20,7 @@ This is an e-commerce project created by Ashley Sanchez using HTML, CSS, and Boo
 
 3. Checkout Page: This page allows users to review the items in their cart and proceed with the checkout process. Until now the cart are placeholder items. Users can enter their shipping information and complete the purchase.
 
-![Image](images/readme-images/checkout.jpng "icon")
+![Image](images/readme-images/checkout.png "icon")
 
 4. Login Page: This page provides a login form for users to enter their credentials and access their account.
 
@@ -35,7 +35,7 @@ This is an e-commerce project created by Ashley Sanchez using HTML, CSS, and Boo
 It is hard to say what code counts as interesting, but I've prepared two pieces of code where I needed some time to figure out a proper solution:
 
 1. Adding a divider (the darkgreen line) to divide header and body. 
-At first I had troubles finding a solution because everytime I added a margin to either the last element of the header or the first element of the body, the background-color of that margin was white instead of lightgreen. Also using the <hr> element to display a horizontal line didn't work out. 
+At first I had troubles finding a solution because everytime I added a margin to either the last element of the header or the first element of the body, the background-color of that margin was white instead of lightgreen. Also using the "hr" element to display a horizontal line didn't work out. 
 
 I've found a solution: Creating an empty div-container of the class "border-darkgreen" and "divider" and styling these dividers in css to create the styling I needed.
 
