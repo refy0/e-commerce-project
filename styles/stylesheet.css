@@ -1,0 +1,28 @@
+
+* {
+    background-color: rgb(212, 241, 212);
+}
+
+#img1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.indexcontent {
+    width:70%;
+}
+
+.border-darkgreen{
+    border-top: 10px solid darkgreen !important;
+}
+
+.divider{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff !important;
+    border: 3px solid #000 !important;
+  }
+

@@ -1,9 +1,231 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Home</title>
-    </head>
-    <body>
+<!doctype html>
+<html lang="en">
 
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-
+scale=1">
+    <title>Ashlyn's Tea Emporium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+</head>
+
+<body>
+    <!-- this includes both the Bootstrap and Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+    <header>
+        <!--Added the navigation at the top-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Ashlyn's Tea Emporium</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registration.html">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="checkout.html">Checkout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Div container to add the border at the top-->
+        <div class="border-darkgreen"></div>
+
+        <!-- container to add marging to the top and botton with css-->
+        <div class="divider"></div>
+        <div class="container">
+            <h1 class="text-center mt-5">Our Products</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="images/greentea1.webp" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Bio Gyukuro Green Tea</h5>
+                            <p class="card-text">Bio Premium Gyokuro tea is a type of Japanese green tea that is
+                                considered one of the highest grades of tea available. It is grown in the shade for
+                                several weeks prior to harvesting, which causes the tea leaves to produce a higher
+                                concentration of chlorophyll and amino acids, resulting in a richer, sweeter flavor and
+                                aroma.</p>
+                            <div class="row">
+                                <div class="col-6 text-center">
+                                    <p class="card-text">$19.99</p>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="images/greentea1.webp" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Bio Sencha Green Tea</h5>
+                            <p class="card-text">Bio Premium Sencha tea is a high-quality Japanese green tea that is
+                                popular for its refreshing taste and numerous health benefits. The tea is made from the
+                                top leaves of the tea plant and is carefully harvested and processed to preserve its
+                                natural flavor and nutrients. The leaves are steamed and rolled to release their
+                                aromatic oils and then dried to create a delicate, grassy flavor with a hint of
+                                sweetness. </p>
+                            <div class="row">
+                                <div class="col-6 text-center">
+                                    <p class="card-text">$12.99</p>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="images/matcha.webp" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Matcha Tea Uji Premium</h5>
+                            <p class="card-text">Matcha Tea Uji Premium is a high-quality Japanese green tea that has
+                                been finely ground into a powder. It is made from shade-grown tea leaves that are
+                                carefully harvested, steamed, and dried before being ground into a fine powder. This tea
+                                is known for its vibrant green color and distinct flavor, which is rich, earthy, and
+                                slightly sweet.</p>
+                            <div class="row">
+                                <div class="col-6 text-center">
+                                    <p class="card-text">$29.99</p>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="images/blacktea1.webp" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Darjeeling Orange Valley</h5>
+                            <p class="card-text">Darjeeling Orange Valley is a high-quality black tea that is grown in
+                                the Orange Valley region of Darjeeling, India. This tea is made from the small, tender
+                                leaves of the tea plant, which are hand-picked and carefully processed to preserve their
+                                delicate flavor and aroma. The tea has a distinctive floral and fruity flavor with a
+                                hint of muscatel, making it a favorite among tea connoisseurs.</p>
+                            <div class="row">
+                                <div class="col-6 text-center">
+                                    <p class="card-text">$9.99</p>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="images/blacktea2.webp" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Kaçkar Mountain Fig Pineapple</h5>
+                            <p class="card-text">Kaçkar Mountain Fig Pineapple Black Tea is a premium loose leaf black
+                                tea that is infused with natural flavors of dried figs and pineapple chunks sourced from
+                                the Kaçkar Mountain region in Turkey. The high-quality black tea leaves are handpicked
+                                and blended with the fruit flavors to create a unique and delicious taste that is both
+                                sweet and tangy. This tea is perfect for those who enjoy a bold and flavorful cup of tea
+                                with a hint of sweetness. </p>
+                            <div class="row">
+                                <div class="col-6 text-center">
+                                    <p class="card-text">$7.99</p>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="images/blacktea3.webp" class="card-img-top" alt="Product Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Mt. Kenya Purple</h5>
+                            <p class="card-text">Mt. Kenya Purple Tea is a unique and exotic tea that is grown
+                                exclusively in the high-altitude regions of Kenya. The tea leaves are harvested from the
+                                purple-tinged Camellia sinensis tea plant, which is known for its high levels of
+                                anthocyanin - a powerful antioxidant that gives the tea its distinct purple color. This
+                                premium loose leaf tea has a delicate, floral aroma and a smooth, refreshing taste that
+                                is both sweet and slightly earthy. </p>
+                            <div class="row">
+                                <div class="col-6 text-center">
+                                    <p class="card-text">$5.99</p>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class=" text-center border-top pt-3 border-darkgreen">
+        <!-- Grid container -->
+        <div class="container p-4">
+
+
+
+
+            <div class="mb-4">
+                <p>
+                    Thank you for visiting Ashlyn's Tea Emporium! We hope you have enjoyed exploring our selection of
+                    handcrafted teas and accessories. At our tea shop, we are dedicated to providing our customers with
+                    the highest quality products and a personalized shopping experience. If you have any questions or
+                    feedback, please don't hesitate to contact us. We look forward to serving you again soon!
+                </p>
+            </div>
+
+
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2023 Copyright: Ashlyn
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</body>
+
 </html>
